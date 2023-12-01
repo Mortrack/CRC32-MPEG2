@@ -31,7 +31,7 @@
  * @author	César Miranda Meza
  * @date	November 17, 2023
  */
-uint32_t CRC32(uint8_t *p_data, uint32_t data_length);
+uint32_t crc32_mpeg2(uint8_t *p_data, uint32_t data_length);
 
 #endif /* CRC32_MPEG2_H_ */
 

@@ -23,7 +23,7 @@ static const uint32_t crc_table[0x100] = {
         0x89B8FD09, 0x8D79E0BE, 0x803AC667, 0x84FBDBD0, 0x9ABC8BD5, 0x9E7D9662, 0x933EB0BB, 0x97FFAD0C, 0xAFB010B1, 0xAB710D06, 0xA6322BDF, 0xA2F33668, 0xBCB4666D, 0xB8757BDA, 0xB5365D03, 0xB1F740B4,
 };												/**< @brief Global 32-bit CRC (MPEG-2) Lookup Table. */
 
-uint32_t CRC32(uint8_t *p_data, uint32_t data_length)
+uint32_t crc32_mpeg2(uint8_t *p_data, uint32_t data_length)
 {
     /** <b>Local variable checksum:</b> Will hold the resulting checksum of the 32-bit CRC Hash Function to be calculated. @note A checksum is any sort of mathematical operation that it is performed on data to represent its number of bits in a transmission message. This is usually used by programmers to detect high-level errors within data transmissions. The way this is used is prior to transmission, such that every piece of data or file can be assigned a checksum value after running a cryptographic has function, which in this particular case, the has function is 32-bit CRC. */
     uint32_t checksum = 0xFFFFFFFF;

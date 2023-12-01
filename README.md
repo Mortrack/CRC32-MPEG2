@@ -20,7 +20,7 @@ and then just call the following function from the
 want to calculate the CRC32-MPEG over a desired given input data:
 
 ```c
-uint32_t CRC32(uint8_t *p_data, uint32_t data_length);
+uint32_t crc32_mpeg2(uint8_t *p_data, uint32_t data_length);
 ```
 
 where to learn more about how to receive the result calculated from the algorithm and how to interpret the parameters of
