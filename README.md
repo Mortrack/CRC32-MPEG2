@@ -1,4 +1,4 @@
-# CRC32-MPEG2 library
+# CRC32-MPEG2 C library
 
 This library provides the variables and functions necessary so that its implementer can invoke the CRC32-MPEG2 algorithm
 in a simple and friendly way. However, my deep desire is to clarify that I, César Miranda Meza, did not invented this
@@ -15,12 +15,14 @@ To use this library, simply include the header file via the following line of co
 #include "crc32_mpeg2.h"
 ```
 
-and then just call the following function from the crc32_mpeg2.h header file whenever you want to calculate the
-CRC32-MPEG over a desired given input data:
+and then just call the following function from the
+<a href=https://github.com/Mortrack/CRC32-MPEG2/blob/main/Inc/crc32_mpeg2.h>crc32_mpeg2.h</a> header file whenever you
+want to calculate the CRC32-MPEG over a desired given input data:
 
 ```c
 uint32_t CRC32(uint8_t *p_data, uint32_t data_length);
 ```
 
 where to learn more about how to receive the result calculated from the algorithm and how to interpret the parameters of
-that function, read the Doxygen-documentation accompanied by that function in the crc32_mpeg2.h header file.
+that function, read the Doxygen-documentation accompanied by that function in the
+<a href=https://github.com/Mortrack/CRC32-MPEG2/blob/main/Inc/crc32_mpeg2.h>crc32_mpeg2.h</a> header file.
