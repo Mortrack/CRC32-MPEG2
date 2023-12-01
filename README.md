@@ -26,3 +26,10 @@ uint32_t crc32_mpeg2(uint8_t *p_data, uint32_t data_length);
 where to learn more about how to receive the result calculated from the algorithm and how to interpret the parameters of
 that function, read the Doxygen-documentation accompanied by that function in the
 <a href=https://github.com/Mortrack/CRC32-MPEG2/blob/main/Inc/crc32_mpeg2.h>crc32_mpeg2.h</a> header file.
+
+## Future additions planned for this library
+
+Although I cannot commit to do the following soon, at some point, I plan to segment several folders where I would like
+to add several libraries to enable calling the CRC32-MPEG2 algorithm but in different programming languages and not to
+just provide it in C programming language, where I also will place effort in providing it with good programming
+practices and documentation.
